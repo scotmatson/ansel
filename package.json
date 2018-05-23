@@ -1,8 +1,20 @@
 {
-  "name": "fp-test",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Gepetto",
+  "version": "0.1.0",
+  "description": "A malware file visualizer microservice",
+  "bugs": {
+    "url": "https://github.com/scotmatson/geppetto/issues",
+    "email": "sjpmatson@gmail.com"
+  },
   "private": true,
+  "author": {
+    "name": "Scot Matson",
+    "email": "sjpmatson@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scotmatson/geppetto"
+  },
   "main": "index.js",
   "scripts": {
     "serve": "node ./src",
@@ -14,7 +26,6 @@
     "express": "^4.16.3",
     "filepreview": "^1.0.16",
     "formidable": "^1.2.1",
-    "npm": "^6.0.1",
     "puppeteer": "^1.4.0"
   }
 }
