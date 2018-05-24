@@ -14,8 +14,11 @@
   },
   "main": "index.js",
   "scripts": {
-    "serve": "node ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker-build": "./bin/build.sh",
+    "docker-run": "./bin/run.sh",
+    "docker-restart": "docker kill geppetto; npm run docker-build && npm run docker-run"
   },
   "license": "ISC",
   "dependencies": {

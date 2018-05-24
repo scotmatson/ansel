@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -f image/Dockerfile -t geppetto-server:latest .
+docker build -f image/Dockerfile -t geppetto:latest .
