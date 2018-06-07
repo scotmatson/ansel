@@ -11,7 +11,7 @@ exports.filePreview = (req, res) => {
 
   form.on('file', (name, file) => {
     (async () => {
-      let path = '/tmp/' + crypto.createHash('sha256').update(file.name).digest('hex') + '.jpg';
+      let path = '/tmp/' + crypto.createHash('sha256').update(file.name).digest('hex') + '.png';
       let options = { quality: 100 }
       await filepreview.generateSync('/tmp/' + file.name, path, options);
       await res.sendFile(path);
