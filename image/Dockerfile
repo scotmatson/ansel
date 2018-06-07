@@ -40,6 +40,6 @@ COPY . /usr/src/app/
 # https://github.com/dagwieers/unoconv/issues/241
 RUN unoconv foo; exit 0
 
-EXPOSE 3000
+EXPOSE 1902
 
 CMD ["npm", "start"]
