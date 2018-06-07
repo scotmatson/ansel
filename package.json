@@ -1,16 +1,16 @@
 {
-  "name": "Gepetto",
+  "name": "Ansel",
   "version": "0.1.0",
   "description": "A malware file visualizer microservice",
   "bugs": {
-    "url": "https://github.com/scotmatson/geppetto/issues",
+    "url": "https://github.com/scotmatson/ansel/issues",
     "email": "sjpmatson@gmail.com"
   },
   "private": true,
   "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotmatson/geppetto"
+    "url": "https://github.com/scotmatson/ansel"
   },
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker-build": "./bin/build.sh",
     "docker-run": "./bin/run.sh",
-    "docker-restart": "docker kill geppetto; npm run docker-build && npm run docker-run"
+    "docker-restart": "docker kill ansel; npm run docker-build && npm run docker-run"
   },
   "license": "ISC",
   "dependencies": {

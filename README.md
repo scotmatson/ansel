@@ -1,6 +1,6 @@
-# Geppetto
+# Ansel
 
-> The Geppetto API is a file viewer microservice that melds together the rendering power of [Puppeteer](https://github.com/GoogleChrome/puppeteer) with the versitility of the [filepreview](https://github.com/maxlabelle/filepreview) package.
+> The Ansel API is a file viewer microservice that melds together the rendering power of [Puppeteer](https://github.com/GoogleChrome/puppeteer) with the versitility of the [filepreview](https://github.com/maxlabelle/filepreview) package.
 
 # Usage
 

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --rm --name geppetto -p 3000:3000 -d geppetto:latest
+docker run --rm --name ansel -p 3000:3000 -d ansel:latest
